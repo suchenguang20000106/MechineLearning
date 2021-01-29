@@ -1,0 +1,17 @@
+#
+/control/verbose 0
+/run/verbose 0
+/process/verbose 0
+/tracking/verbose 0
+#
+#
+/MyRun/SetG4BasedFileName ./batch/kp_p2.40theta10.00.root
+/MyRun/ActiveG4BasedManager
+/MyGun/SimpleGun
+#
+/run/initialize
+#
+/gun/particle kaon+
+/gun/direction 0.984808 0 0.173648
+/gun/momentumAmp 2.4 GeV
+/run/beamOn 1000

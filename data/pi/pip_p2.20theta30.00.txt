@@ -1,0 +1,17 @@
+#
+/control/verbose 0
+/run/verbose 0
+/process/verbose 0
+/tracking/verbose 0
+#
+#
+/MyRun/SetG4BasedFileName ./batch/pip_p2.20theta30.00.root
+/MyRun/ActiveG4BasedManager
+/MyGun/SimpleGun
+#
+/run/initialize
+#
+/gun/particle pi+
+/gun/direction 0.866025 0 0.5
+/gun/momentumAmp 2.2 GeV
+/run/beamOn 1000
